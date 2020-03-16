@@ -1,0 +1,34 @@
+#main {
+    margin-left: auto;
+    margin-right:auto;
+    border-style: solid;
+    background-color: #404040;
+    width: 400;
+    height: 500;
+}
+
+#display {
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 20;
+    margin-bottom: 20;
+    border-style: solid;
+    border-color: #446600;
+    background-color: #669900;
+    width: 300;
+    height: 75;
+    text-align: left;
+    font-family: "Courier New";
+}
+
+#ui {
+    padding-bottom: 50;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #d9d9d9;
+    border-style: solid;
+    border-color: #bfbfbf;
+    width: 300;
+    height: 300;
+    text-align: center;
+}
