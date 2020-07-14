@@ -3,32 +3,32 @@
     margin-right:auto;
     border-style: solid;
     background-color: #404040;
-    width: 400;
-    height: 500;
+    width: 400px;
+    height: 500px;
 }
 
 #display {
     margin-left: auto;
     margin-right:auto;
-    margin-top: 20;
-    margin-bottom: 20;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-style: solid;
     border-color: #446600;
     background-color: #669900;
-    width: 300;
-    height: 75;
+    width: 300px;
+    height: 75px;
     text-align: left;
     font-family: "Courier New";
 }
 
 #ui {
-    padding-bottom: 50;
+    padding-bottom: 50px;
     margin-left: auto;
     margin-right:auto;
     background-color: #d9d9d9;
     border-style: solid;
     border-color: #bfbfbf;
-    width: 300;
-    height: 300;
+    width: 300px;
+    height: 300px;
     text-align: center;
 }

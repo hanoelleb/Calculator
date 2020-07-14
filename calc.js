@@ -3,7 +3,7 @@ const ui = document.querySelector("#ui");
 var equation;
 var equationList = [];
 
-var operatorText = "padding: 0px; display: inline-block; margin: 8; height: 30; width: 50;";
+var operatorText = "padding: 0px; display: inline-block; margin: 8px; height: 30px; width: 50px;";
 
 var pushedDecimal = false;
 
@@ -34,32 +34,32 @@ ui.appendChild(divBtn);
 for (i = 1; i < 10; i++) {
     const num = document.createElement('button');
     num.innerHTML = i.toString();
-    num.style.cssText = "display: inline-block; margin: 8; height: 40; width: 60;";
+    num.style.cssText = "display: inline-block; margin: 8px; height: 40px; width: 60px;";
     num.addEventListener('click', addToDisplay);
     ui.appendChild(num);
 }
 
 const clear = document.createElement('button');
 clear.innerHTML = 'Clear';
-clear.style.cssText = "padding: 0; display: inline-block; margin: 8; height: 40; width: 60;";
+clear.style.cssText = "padding: 0; display: inline-block; margin: 8px; height: 40px; width: 60px;";
 clear.addEventListener('click', clearDisplay);
 ui.appendChild(clear);
 
 const zero = document.createElement('button');
 zero.innerHTML = '0';
-zero.style.cssText = "display: inline-block; margin: 8; height: 40; width: 60;";
+zero.style.cssText = "display: inline-block; margin: 8px; height: 40px; width: 60px;";
 zero.addEventListener('click', addToDisplay);
 ui.appendChild(zero);
 
 const equal = document.createElement('button');
 equal.innerHTML = '=';
-equal.style.cssText = "display: inline-block; margin: 8; height: 40; width: 60;";
+equal.style.cssText = "display: inline-block; margin: 8px; height: 40px; width: 60px;";
 equal.addEventListener('click', calculate);
 ui.appendChild(equal);
 
 const backSpace = document.createElement('button');
 backSpace.innerHTML = 'Back';
-backSpace.style.cssText = "padding: 0; display: inline-block; margin: 8; height: 40; width: 60;";
+backSpace.style.cssText = "padding: 0; display: inline-block; margin: 8px; height: 40px; width: 60px;";
 backSpace.addEventListener('click', () => {
     displayText.innerHTML = displayText.innerHTML.substring(0,  displayText.innerHTML.length-1);
 });
@@ -67,7 +67,7 @@ ui.appendChild(backSpace);
 
 const deci = document.createElement('button');
 deci.innerHTML = '.';
-deci.style.cssText = "display: inline-block; margin: 8; height: 40; width: 60;";
+deci.style.cssText = "display: inline-block; margin: 8px; height: 40px; width: 60px;";
 deci.addEventListener('click', addToDisplay);
 ui.appendChild(deci);
 
@@ -75,7 +75,7 @@ var display = document.querySelector("#display");
 
 const displayText = document.createElement("h1");
 displayText.innerHTML = "";
-displayText.style.cssText = "padding-top: 1; padding-bottom: 5; margin: 5px; font-family: Arial";
+displayText.style.cssText = "padding-top: 1px; padding-bottom: 5px; margin: 5px; font-family: Arial";
 display.appendChild(displayText);
 
 function addToDisplay(e) {
